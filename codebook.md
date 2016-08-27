@@ -48,7 +48,7 @@ Data Table Transformations
 The readings produced in the final table 'completewide' are the mean eaverage of all the individual 
 readings for each activity by each subject.
 
-The fianl data table 'completewide' contains both the training data and the test data merged into a single table. Of the 561
+The final data table 'completewide' contains both the training data and the test data merged into a single table. Of the 561
  variables for the original data, only those readings for mean and standard deviation were retained for the final table.
 
 Variable names have been simplified by removing any capital letters and punction to reduce possible spelling errors when making further analysis on variables the 'completewide' table.
