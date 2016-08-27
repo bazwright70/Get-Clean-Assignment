@@ -10,9 +10,9 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '[xyz]' is used to denote 3-axial signals in the x, y and z directions.
 
-tbodyacc[xyz] \s\s
-tGravityacc[xyz] \s\s
-tbodyaccjerk[xyz]  \s\s
+tbodyacc[xyz]<br>
+tGravityacc[xyz]<br>
+tbodyaccjerk[xyz]<br>
 tbodyGyro[xyz]<br>
 tbodyGyrojerk[xyz]<br>
 tbodyaccMag<br>
@@ -31,24 +31,24 @@ fbodyGyrojerkMag<br>
 The set of variables that were estimated from these signals are: 
 
 mean: Mean value <br>
-std: Standard deviation
+std: Standard deviation<br>
 
 The readings are taken across 6 activities for each of the 30 subjects:
 
-Walking
-Walking Upstairs
-Walking Downstairs
-Sitting
-Standing
-Laying.
+Walking<br>
+Walking Upstairs<br>
+Walking Downstairs<br>
+Sitting<br>
+Standing<br>
+Laying.<br>
 
 Data Table Transformations
 ====================
 
-The readings produced in the final table 'completewide' are the mean eaverage of all the individual 
+    The readings produced in the final table 'completewide' are the mean eaverage of all the individual 
 readings for each activity by each subject.
 
-The fianl data table 'completewide' contains both the training data and the test data merged into a single table. Of the 561 variables for the original data, only those readings for mean and standard
+    The fianl data table 'completewide' contains both the training data and the test data merged into a single table. Of the 561 variables for the original data, only those readings for mean and standard
 deviation were reatained for the final table.
 
 Variable names have been simplified by removing any capital letters and punction to reduce possible spelling errors when making further analysis on variables the 'completewide' table.
