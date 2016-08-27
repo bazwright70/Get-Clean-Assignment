@@ -4,8 +4,8 @@
 	- This repository contains the data and scripts nessecary to run the assignment analysis. 
 	- The raw data is contained in the 'data folder'
 	- The repository contains a codebook describing the transformations, cleaning and variables in the cleaned datasets:
-			1)             completewide
-			2)	complete narrow
+			1)        completewide
+			2)        complete narrow
 	-  Two different transformations are available to provide a 'wide' or 'narrow' view of the data.
 	-  Columns variable names have been cleaned to remove capital letters and and punctuation to simplify spelling
 	    to limit typing errors during further analysis. The format for sensor variable names has been kept consistent as
@@ -13,7 +13,8 @@
 	-  Each row in the 'completewide' dataset contains the mean average of individual readings from one subject performing
 	   a single type of activity. Each column priovides a single sensor measurement, (not including subject and activity)
 	-  Each row in the 'completenarrow' dataset contains the mean average of a individual readings from a single subject
-	    performing a single type of activity for a single sensor reading.
+	    performing a single type of activity for a single sensor reading. Each column is a variable of subject, activity, or
+	    sensor reading.
 		
 	3 Scripts are included:
 

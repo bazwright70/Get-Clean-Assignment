@@ -37,12 +37,12 @@ Each of the sensor readings will produce an x, y and z variable. Each of the x,y
 mean:  Mean value <br>
 std:  Standard deviation<br>
 
-PREFIX
-    t         time
-    f         frequency
+PREFIX<br>
+    t	 time<br>
+    f	 frequency<br>
 
-SUFFIX
-    x,y,z      axis
+SUFFIX<br>
+    x,y,z	 axis
 
 The readings are taken across 6 activities for each of the 30 subjects:
 
