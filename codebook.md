@@ -1,4 +1,4 @@
-Feature Selection 
+     Code Book 
 =================
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tacc-xyz and tGyro-xyz (not included in the final summary table). These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tbodyacc[xyz] and tgravityacc[xyz]) using another low pass butterworth filter with a corner frequency of 0.3 Hz. 
